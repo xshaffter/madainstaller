@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    //border: 1px solid red;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../statics/mary_mods.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.body {
+    flex-grow: 7;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: center;
+    align-items: end;
+}
+
+.footer {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modpack-progress {
+    height: 100%;
+    display: flex;
+    width: 80%;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-section {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 80%;
+}
+
+.select-component {
+    display: flex;
+    flex-direction: column;
+    min-height: 50px;
+    min-width: 146px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.select-component * {
+    font-size: 20px;
+}
+
+.select-component > select {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    height: 25px;
+}
+
+.select-component > label {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    height: 25px;
+}

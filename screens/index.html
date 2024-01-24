@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>MadaInstaller</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/components.css">
+    </head>
+    <body>
+        <div class="body">
+            <div class="modpack-progress">
+                <div class="filler2"></div>
+                <section class="progress-section" style="display: none">
+                    <h3 class="text-center progress-text" id="progress-text">Instalando</h3>
+                    <div class="progress">
+                        <div class="progress-bar" id="progress-bar" style="width: 0%"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="select-component">
+                <label for="modpack-list">Modpack</label>
+                <select id="modpack-list">
+                </select>
+            </div>
+
+            <button class="mary-button" onclick="installWrapper()" id="install-btn" disabled>
+                INSTALAR
+            </button>
+            <div class="filler"></div>
+        </div>
+        <script src="js/renderer.js"></script>
+    </body>
+</html>

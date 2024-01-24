@@ -1,0 +1,82 @@
+button.mary-button {
+    background: #f2abc7;
+    background: linear-gradient(#f2abc7, #cb8da3);
+    border-radius: 11px;
+    padding: 20px 45px;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 26px/1 "Open Sans", sans-serif;
+    text-align: center;
+    border: none;
+}
+
+button.mary-button:hover {
+    background: #cb8da3;
+    background: linear-gradient(#cb8da3, #f2abc7);
+    border-radius: 11px;
+    padding: 20px 45px;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 26px/1 "Open Sans", sans-serif;
+    text-align: center;
+    border: none;
+}
+
+button.mary-button:active {
+    background: #cb8da3;
+    border-radius: 11px;
+    padding: 20px 45px;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 26px/1 "Open Sans", sans-serif;
+    text-align: center;
+    border: none;
+}
+
+button.mary-button:disabled {
+    background: darkgrey;
+    border-radius: 11px;
+    padding: 20px 45px;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 26px/1 "Open Sans", sans-serif;
+    text-align: center;
+    border: none;
+}
+
+.progress {
+    flex-grow: 1;
+    background: #e9ecef;
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.progress .progress-bar {
+    border-radius: 10px;
+    background: #007bff;
+    height: 20px;
+}
+
+.progress-text {
+    text-shadow: white 4px 0 4px;
+}
+
+.text-center {
+    align-self: center;
+    justify-self: center;
+}
+
+.filler {
+    display: flex;
+    flex-direction: row;
+    width: 146px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.filler2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
